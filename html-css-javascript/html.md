@@ -69,7 +69,7 @@ noshade	No 3D cut-out
 ```html
 <img src="url" alt="text">	Basic Image
 ```
-#### <img> Tag Attributes:
+#### img Tag Attributes:
 ```html	 
 src="url"	URL or filename of image (required!)
 alt="text"	Alternate Text (required!)
@@ -86,7 +86,7 @@ hspace="??"	Space on either side of image (in pixels) (*)
 ```html
 <a href="url"> link text </a>	Basic Link
 ```
-#### <a> Tag Attributes:
+#### a Tag Attributes:
 ```html	 
 href="url"	Location (url) of page to link to.
 name="??"	Name of link (name of anchor, or name of bookmark)
@@ -129,7 +129,7 @@ height="??"	Table Height (pixels or %) (*)
 <th> ... </th>	Header Cell within table row
 <td> ... </td>	Table Cell within table row
 ```
-#### <td> Tag Attributes:
+#### td Tag Attributes:
 ```html	
 colspan="?"	Number of columns the cell spans across (cell merge)
 rowspan="?"	Number of row a cell spans across (cell merge)
@@ -141,7 +141,7 @@ valign="??"	Vertical Alignment: top, middle, bottom (*)
 nowrap	Force no line breaks in a particular cell
 ```
 
-### Tables	
+### Frames
 ```html
 <frameset> ... </frameset>	Define the set of Frames
 <frameset> 
@@ -153,7 +153,7 @@ cols="??,??, ..."	Define column sizes & number of columns (size in pixels or %)
 noresize="noresize"	User cannot resize any frames in frameset
 <frame> ... </frame>	Define a frame within the frameset
 ```
-#### <frame> Tag Attributes:
+#### frame Tag Attributes:
 ```html	
 src="url"	Location of HTML File for a frame
 name="***"	Unique name of frame window
@@ -167,18 +167,18 @@ bordercolor="#??????"	Border Colour (*)
 ```
 
 
-### Tables	
+### Forms
 ```html
 <form> ... </form>	Form input group decleration
 ```
-#### <form> Tag Attributes::
+#### form Tag Attributes:
 ```html	 
 action="url"	URL of Form Script
 method="***"	Method of Form: get, post
 enctype="***"	For File Upload: enctype="multipart/form-data"
 <input> ... </input>	Input field within form
 ```
-#### <input> Tag Attributes::
+#### input Tag Attributes:
 ```html	
 type="***"	Input Field Type: text, password, checkbox, submit etc.
 name="***"	Form Field Name (for form processing script)
@@ -188,20 +188,20 @@ maxlength="?"	Maximum Length of Input Field Data
 checked	Mark selected field in radio button group or checkbox
 <select> ... </select>	Select options from drop down list
 ```
-#### <select> Tag Attributes:
+#### select Tag Attributes:
 ```html	 
 name="***"	Drop Down Combo-Box Name (for form processing script)
 size="?"	Number of selectable options
 multiple	Allow multiple selections
 <option> ... </option>	Option (item) within drop down list
 ```
-#### <option> Tag Attributes:
+#### option Tag Attributes:
 ```html	
 value="***"	Option Value
 selected	Set option as default selected option
 <textarea> ... </textarea>	Large area for text input
 ```
-#### <textarea> Tag Attributes:
+#### textarea Tag Attributes:
 ```html	 
 name="***"	Text Area Name (for form processing script)
 rows="?"	Number of rows of text shown
@@ -229,14 +229,14 @@ wrap="***"	Word Wrapping: off, hard, soft
 <!DOCTYPE html ... >	Document Type Definition (wiki)
 <meta> ... </meta>	META information tag
 ```
-#### <meta> Tag Attributes:
+#### meta Tag Attributes:
 ```html	 
 name="***"	Meta name: description, keywords, author
 http-equiv="***"	HTTP Equivalent Info: title, etc.
 content="***"	Information content
 <link>	LINK content relationship tag
 ```
-#### <link> Tag Attributes:
+#### link Tag Attributes:
 ```html	
 rel="***"	Type of forward relationship
 http="url"	Location (URL) of object or file being linked
@@ -246,7 +246,7 @@ title="***"	Link title (optional)
 
 
 ### Body Background & Colours
-#### <body> Tag Attributes:	 
+#### body Tag Attributes:	 
 ```html
 background="url"	Background Image (*)
 bgcolor="#??????"	Background Colour (*)
