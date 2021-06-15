@@ -223,7 +223,7 @@ wrap="***"	Word Wrapping: off, hard, soft
 ```
 
 
-### Tables	
+### Miscellaneous Tags
 ```html
 <!-- ... -->	Comment within HTML source code
 <!DOCTYPE html ... >	Document Type Definition (wiki)
